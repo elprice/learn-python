@@ -1,0 +1,6 @@
+- [x] Update lesson1
+- [ ] Write lesson3 (read & write to a file, maybe use loops)
+- [ ] Write a lesson w/ testing
+- [ ] Write lesson (build an api)
+- [ ] Write a lesson w/ database.. maybe firebase? redis? SQLite
+- [ ] Write lesson?? (deploy to aws lambda, use sns or event bridge, use s3?..aws will probably be multiple lessons. First will use boto3 for *anything*.. then cdk later)

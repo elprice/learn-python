@@ -1,2 +1,0 @@
-- [ ] Update lesson1
-- [ ] Write lesson3 (build an api)
