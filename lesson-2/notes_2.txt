@@ -1,2 +1,24 @@
 # argparse tutorial
 
+- there are two modules that fulfill the same task, `getopt` (an equivalent for `getop()` from the C lang)
+and the deprecated `optparse`.
+
+importing argparse and having no options will do nothing, but a simple help message is auto generated
+
+positional arguments
+
+`add_argument()` method, specifies which command-line options the program is willing to accept
+`parse_args()` method returns data from the options specified
+
+argparse will treat options as strings, unless told otherwise; for instance, `type=int`
+
+optional arguments, are not necessary to run the program without errors
+
+since it's optional, it is given the value of `None`, and will need to be given a new value to fulfill the
+argument requirements
+
+you can make the optional argument more of a flag for true/false by providing a stored value when the command/flag
+is called, i.e. parser.add_argument("--verbose", help="increase output verbosity", action="store_true")
+
+the options can be shortened for ease of use, 
+e.g. parser.add_argument("-v", "--verbose", help="increase output verbosity",action="store_true")
